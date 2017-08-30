@@ -1,0 +1,66 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "b7d495aaba841312dd62aaaa46186854",
+    "packages": [
+        {
+            "name": "sau/library",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AkinaySau/library.git",
+                "reference": "78b422b4c9b266cccb89880d5dea7849fa4f2858"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AkinaySau/library/zipball/78b422b4c9b266cccb89880d5dea7849fa4f2858",
+                "reference": "78b422b4c9b266cccb89880d5dea7849fa4f2858",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Sau\\Lib\\": "src/"
+                },
+                "files": [
+                    "functions/sau_scandir_ext.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Akinay Sau",
+                    "email": "akinaysau@gmail.com",
+                    "homepage": "http://a-sau.ru",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Basic library to help in designing ",
+            "homepage": "https://bitbucket.org/Akinay_Sau/sau-lib",
+            "keywords": [
+                "library",
+                "sau"
+            ],
+            "time": "2017-08-30T12:40:18+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "sau/library": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

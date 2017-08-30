@@ -1,0 +1,50 @@
+[
+    {
+        "name": "sau/library",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/AkinaySau/library.git",
+            "reference": "78b422b4c9b266cccb89880d5dea7849fa4f2858"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/AkinaySau/library/zipball/78b422b4c9b266cccb89880d5dea7849fa4f2858",
+            "reference": "78b422b4c9b266cccb89880d5dea7849fa4f2858",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.0"
+        },
+        "time": "2017-08-30T12:40:18+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Sau\\Lib\\": "src/"
+            },
+            "files": [
+                "functions/sau_scandir_ext.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Akinay Sau",
+                "email": "akinaysau@gmail.com",
+                "homepage": "http://a-sau.ru",
+                "role": "Developer"
+            }
+        ],
+        "description": "Basic library to help in designing ",
+        "homepage": "https://bitbucket.org/Akinay_Sau/sau-lib",
+        "keywords": [
+            "library",
+            "sau"
+        ]
+    }
+]
