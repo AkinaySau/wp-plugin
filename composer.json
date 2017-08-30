@@ -1,0 +1,26 @@
+{
+	"name": "sau/wp-plugin",
+	"description": "Каркас простого плагина",
+	"minimum-stability": "dev",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Akinay Sau",
+			"email": "akinaysau@gmail.com",
+			"homepage": "http://a-sau.ru",
+			"role": "Developer"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Sau\\WP\\Plugin\\": "lib/class",
+			"Plugin\\": "lib/options"
+		},
+		"classmap": [
+			"lib/options/"
+		]
+	},
+	"require": {
+		"sau/library": "dev-master"
+	}
+}
